@@ -3,7 +3,6 @@ import cn from 'classnames'
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import CardIII from '../../../components/CardIII'
-import Dropdown from '../../../components/Dropdown'
 import { ProjectData, projectsData } from '@/constants/projectsData'
 import ProjectModal from '@/components/ProjectModal/ProjectModal'
 
@@ -32,6 +31,36 @@ const Projects = () => {
 							))}
 						</div>
 					</div>
+
+					{direction === 'iOS Projects' ? (
+						<p className="body">
+							I have 6+ years of experience developing iOS apps. I worked for 2
+							startups as an iOS developer, co-founded an iOS game development company
+							and I built & designed 10+ apps from scratch. <br></br>
+							<br></br> Skills:{' '}
+							<strong>
+								Swift, UIKit, SwiftUI, SpriteKit, Realm, Core Data, RxSwift,
+								Combine, REST API, MVC, MVVM-C, Redux, Unit, UI Testing, Fastlane,
+								Circle CI, Git, GitHub, CocoaPods, SPM, Asynchronous programming,
+								Bitbucket, Sketch, Figma
+							</strong>
+						</p>
+					) : (
+						<p className="body">
+							I've been doing web development for 4+ years. My primary focus has been
+							full-stack development with React, TypeScript and Next.js on the
+							frontend side, as well as Firebase and Google Cloud on the backend side.
+							<br></br>
+							<br></br>
+							Skills:{' '}
+							<strong>
+								HTML, (S)CSS, Tailwind, JavaScript, TypeScript, React, Next.js,
+								Google Cloud, Firebase, Google Analytics, Web Scraping, Serverless
+								Computing, Netlify, Vercel, Stripe, Google Maps API, LangChain,
+								OpenAI
+							</strong>
+						</p>
+					)}
 
 					{/* <Dropdown
 						className={styles.dropdown}

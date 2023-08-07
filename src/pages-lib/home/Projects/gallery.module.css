@@ -6,7 +6,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, auto);
 	grid-gap: 32px;
-	margin-top: 48px;
+	margin-top: 16px;
 	padding-bottom: 48px;
 	position: relative;
 }
@@ -15,6 +15,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 3rem;
 }
 
 .nav {
@@ -71,10 +72,6 @@
 	.image_container {
 		width: 60px;
 		height: 60px;
-	}
-
-	.nav {
-		display: none;
 	}
 }
 
