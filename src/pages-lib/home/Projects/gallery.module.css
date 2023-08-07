@@ -6,7 +6,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, auto);
 	grid-gap: 32px;
-	margin-top: 16px;
+	margin-top: 24px;
 	padding-bottom: 48px;
 	position: relative;
 }
