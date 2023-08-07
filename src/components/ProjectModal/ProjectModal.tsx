@@ -1,8 +1,9 @@
 import styles from './projectmodal.module.css'
 import OutsideClickHandler from 'react-outside-click-handler'
-import { useState } from 'react'
 import cn from 'classnames'
 import { ProjectData } from '@/constants/projectsData'
+import { motion } from 'framer-motion'
+import { item } from '../../constants/animations'
 
 interface PropTypes {
 	closeModal: () => void
@@ -31,6 +32,16 @@ export default function Modal({ closeModal, project }: PropTypes) {
 						<p className={cn('caption')}>{project.date}</p>
 					</div>
 					<p className={cn('body')}>{project.text}</p>
+
+					<div className={styles.buttonContainer}>
+						<motion.button
+							variants={item}
+							className={cn('button', styles.linkButton)}
+							onClick={() => window.open(project.link, '_blank')}
+						>
+							<p className={styles.buttonText}>View Project</p>
+						</motion.button>
+					</div>
 				</div>
 			</div>
 		</OutsideClickHandler>
