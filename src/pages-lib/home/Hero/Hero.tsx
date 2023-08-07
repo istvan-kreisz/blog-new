@@ -95,9 +95,21 @@ const Hero = () => {
 
 						<motion.div variants={item}>
 							<p className={cn('body', styles.subtitle)}>
-								Your goal is to throw the most epic party for your friends and
-								family? I am in! If you’re interested in having me photograph your
-								wedding, I’d love for you to get in touch.
+								6+ years of dev experience working for startups, as an indie dev and
+								as a freelancer. I love challenges and learning new things. I focus
+								on maintainable, elegant software architecture and world-class UI
+								design in my work. I've gained experience in all stages of product
+								creation as a solo developer and freelancer, including:{' '}
+								<strong>
+									backend, frontend and iOS development, UI & UX design, product
+									management
+								</strong>
+								. I have years of experience working with these technologies:{' '}
+								<strong>
+									iOS, Firebase, Google Cloud, React, Next.js, Typescript, web
+									scraping, LLMs
+								</strong>{' '}
+								.
 							</p>
 						</motion.div>
 					</div>
