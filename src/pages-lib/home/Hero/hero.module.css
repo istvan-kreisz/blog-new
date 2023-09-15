@@ -44,7 +44,7 @@
 	display: grid;
 	grid-template-columns: repeat(3, auto);
 	grid-gap: 16px;
-	align-items: flex-start;
+	align-items: start;
 	justify-content: flex-start;
 	margin-top: 24px;
 }
@@ -52,6 +52,14 @@
 .social_icon {
 	cursor: pointer;
 	transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	display: flex;
+	justify-items: center;
+	align-items: center;
+}
+
+.social_icon svg {
+	height: 30px;
+	width: auto;
 }
 
 .social_icon:hover {

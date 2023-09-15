@@ -49,15 +49,16 @@ const Projects = () => {
 						<p className="body">
 							I've been doing web development for 4+ years. My primary focus has been
 							full-stack development with React, TypeScript and Next.js on the
-							frontend side, as well as Firebase and Google Cloud on the backend side.
+							frontend side, as well as Firebase, Google Cloud and Node.js on the
+							backend side.
 							<br></br>
 							<br></br>
 							Skills:{' '}
 							<strong>
 								HTML, (S)CSS, Tailwind, JavaScript, TypeScript, React, Next.js,
-								Google Cloud, Firebase, Google Analytics, Web Scraping, Serverless
-								Computing, Netlify, Vercel, Stripe, Google Maps API, LangChain,
-								OpenAI
+								Node.js Google Cloud, Firebase, Google Analytics, Web Scraping,
+								Serverless Computing, Netlify, Vercel, Stripe, Google Maps API,
+								LangChain, OpenAI
 							</strong>
 						</p>
 					)}
