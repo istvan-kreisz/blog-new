@@ -17,7 +17,7 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				link: 'https://apps.apple.com/us/app/vivid-ai-art-generator/id6446010189?platform=iphone',
 				text: (
 					<>
-						Vivid was a freelance project. It's an{' '}
+						Vivid was a freelance project. It&apos;s an{' '}
 						<strong>AI image generator iOS app</strong> with preset styles and a public
 						feed where you can browse through AI art created by other users. I built it
 						using <strong>SwiftUI and MVVM-C</strong> architecture. The app uses{' '}
@@ -134,8 +134,8 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				link: 'https://www.eridesignstudio.com',
 				text: (
 					<>
-						I've been working as a web development contractor for ERI Design. My main
-						project has been developing a{' '}
+						I&apos;ve been working as a web development contractor for ERI Design. My
+						main project has been developing a{' '}
 						<strong>React-based CAD-like web application</strong>
 						to help with the design and cost estimation of custom-built railing systems.
 						I built new features, improved software architecture by breaking up large

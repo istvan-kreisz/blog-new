@@ -100,7 +100,7 @@ const Hero = () => {
 								6+ years of experience working for startups, as an indie developer
 								and as a freelancer. I love challenges and learning new things. I
 								focus on maintainable, elegant software architecture and excellent
-								UI design in my work. I've gained experience in all stages of
+								UI design in my work. I&apos;ve gained experience in all stages of
 								product creation, including:{' '}
 								<strong>
 									backend, frontend and iOS development, UI & UX design, product
@@ -138,7 +138,7 @@ const Hero = () => {
 
 					<div className={styles.social_wrapper}>
 						{socials.map((item, index) => (
-							<a href={item.link}>
+							<a href={item.link} key={index}>
 								<motion.div
 									variants={{ svg: item.svg }}
 									key={index}

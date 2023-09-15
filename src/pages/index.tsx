@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Istvan Kreisz's website</title>
+				<title>Istvan Kreisz&apos;s website</title>
 				<meta
 					name="description"
 					content="Kreisz Istvan - Experienced web and iOS developer"
