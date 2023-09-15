@@ -3,7 +3,6 @@ import cn from 'classnames'
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react'
-import Link from 'next/link'
 import { ProjectData } from '@/constants/projectsData'
 
 const variants = {
