@@ -136,10 +136,9 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 					<>
 						I&apos;ve been working as a web development contractor for ERI Design. My
 						main project has been developing a{' '}
-						<strong>React-based CAD-like web application</strong>
-						to help with the design and cost estimation of custom-built railing systems.
-						I built new features, improved software architecture by breaking up large
-						components and{' '}
+						<strong>React-based CAD-like web application</strong> to help with the
+						design and cost estimation of custom-built railing systems. I built new
+						features, improved software architecture by breaking up large components and{' '}
 						<strong>converted the 80k+ line JavaScript project to TypeScript</strong>.
 					</>
 				),
