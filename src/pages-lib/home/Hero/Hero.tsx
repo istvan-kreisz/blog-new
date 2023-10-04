@@ -95,7 +95,7 @@ const Hero = () => {
 							<h1 className={cn('hero', styles.title)}>Istvan Kreisz</h1>
 						</motion.div>
 						<motion.div variants={item}>
-							<p className={cn('h4', styles.secondaryTitle)}>iOS and Web developer</p>
+							<p className={cn('h4', styles.secondaryTitle)}>Web and iOS developer</p>
 						</motion.div>
 
 						<motion.div variants={item}>
