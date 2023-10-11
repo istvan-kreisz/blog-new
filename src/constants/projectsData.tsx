@@ -52,7 +52,7 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				image: 'projects/Sidelineswap.png',
 				title: 'SidelineSwap',
 				date: 'Oct 2021 - Aug 2022',
-				link: 'https://www.sidelineswap.com',
+				link: 'https://sidelineswap.com',
 				text: (
 					<>
 						SidelineSwap is an <strong>e-commerce store</strong> for used sporting
@@ -69,7 +69,7 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				image: 'projects/LabTwin.jpg',
 				title: 'LabTwin',
 				date: 'Jan 2019 - Sept 2020',
-				link: 'https://www.labtwin.com',
+				link: 'https://www.labtwin.com/product',
 				text: (
 					<>
 						LabTwin was a niche{' '}
