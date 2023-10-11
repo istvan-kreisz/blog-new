@@ -52,7 +52,7 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				image: 'projects/Sidelineswap.png',
 				title: 'SidelineSwap',
 				date: 'Oct 2021 - Aug 2022',
-				link: 'https://sidelineswap.com',
+				link: 'https://apps.apple.com/us/app/sidelineswap/id1215421737',
 				text: (
 					<>
 						SidelineSwap is an <strong>e-commerce store</strong> for used sporting
