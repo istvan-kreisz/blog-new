@@ -128,6 +128,24 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 		title: 'Web Projects',
 		projects: [
 			{
+				image: 'projects/Pixelcut.png',
+				title: 'Pixelcut',
+				date: 'Nov 2023 - ',
+				link: 'https://www.pixelcut.ai',
+				text: (
+					<>
+						I joined Pixelcut's team as a <strong>frontend web developer</strong>. I've
+						been working on their online image editor software. My tasks have involved{' '}
+						<strong>
+							developing new features for the image editor and refactoring and
+							improving parts of the codebase
+						</strong>
+						. The project is a{' '}
+						<strong>React SPA, written entirely in TypeScript</strong>.
+					</>
+				),
+			},
+			{
 				image: 'projects/ERI.png',
 				title: 'ERI Design',
 				date: 'Apr 2023 - ',
@@ -140,25 +158,6 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 						design and cost estimation of custom-built railing systems. I built new
 						features, improved software architecture by breaking up large components and{' '}
 						<strong>converted the 80k+ line JavaScript project to TypeScript</strong>.
-					</>
-				),
-			},
-
-			{
-				image: 'projects/GameGuideAI.png',
-				title: 'GameGuide AI (UNDER DEVELOPMENT)',
-				date: 'May 2023 - ',
-				link: 'https://gameguide.ai',
-				text: (
-					<>
-						I developed a <strong>AI chatbot for gamers</strong> using{' '}
-						<strong>
-							OpenAI, LangChain, React, Next.js, TypeScript, Firebase and Google Cloud
-							Functions
-						</strong>
-						. Currently, the chatbot can only answer questions about the popular game,
-						Skyrim. The <strong>training data for the bot is scraped</strong> from the a
-						Skyrim wiki website, and stored in <strong>a vector database</strong>.
 					</>
 				),
 			},
@@ -176,6 +175,24 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 						<strong> 100k+ sign ups</strong>. Features include multiple game modes for
 						2-100 players, leaderboards, private matches, and a games stats dashboard.
 						Payments are processed through <strong>Stripe</strong>.
+					</>
+				),
+			},
+			{
+				image: 'projects/GameGuideAI.png',
+				title: 'GameGuide AI',
+				date: 'May 2023 - ',
+				link: 'https://gameguide.ai',
+				text: (
+					<>
+						I developed a <strong>AI chatbot for gamers</strong> using{' '}
+						<strong>
+							OpenAI, LangChain, React, Next.js, TypeScript, Firebase and Google Cloud
+							Functions
+						</strong>
+						. Currently, the chatbot can only answer questions about the popular game,
+						Skyrim. The <strong>training data for the bot is scraped</strong> from the a
+						Skyrim wiki website, and stored in <strong>a vector database</strong>.
 					</>
 				),
 			},
@@ -203,8 +220,8 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				link: 'https://kreiszjanka.com',
 				text: (
 					<>
-						<strong>A portfolio website and webshop (not live yet)</strong> for my
-						sister who is a jewellery maker. I built the site with{' '}
+						<strong>A portfolio website and webshop</strong> for my sister who is a
+						jewellery maker. I built the site with{' '}
 						<strong>
 							Shopify, using some custom JavaScript and custom HTML components
 						</strong>
