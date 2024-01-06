@@ -134,8 +134,9 @@ const projectsData: { title: 'iOS Projects' | 'Web Projects'; projects: ProjectD
 				link: 'https://www.pixelcut.ai',
 				text: (
 					<>
-						I joined Pixelcut's team as a <strong>frontend web developer</strong>. I've
-						been working on their online image editor software. My tasks have involved{' '}
+						I joined Pixelcut&apos;s team as a <strong>frontend web developer</strong>.
+						I&apos;ve been working on their online image editor software. My tasks have
+						involved{' '}
 						<strong>
 							developing new features for the image editor and refactoring and
 							improving parts of the codebase
